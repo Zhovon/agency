@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zhovon Digital Agency</title>
+    <!-- Social meta tags -->
+    <meta name="description" content="Zhovon is a leading digital marketing agency dedicated to transforming brands through innovative, results-driven solutions. Strategy, Design, Development.">
+    <meta property="og:title" content="Zhovon Digital Agency">
+    <meta property="og:description" content="Creative Solutions, Digital Growth. Let's build your brand's future together.">
+    <meta property="og:image" content="https://picsum.photos/seed/zhovonsocial/1200/630">
+    <meta property="og:url" content="#">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Zhovon Digital Agency">
+    <meta name="twitter:description" content="Creative Solutions, Digital Growth. Let's build your brand's future together.">
+    <meta name="twitter:image" content="https://picsum.photos/seed/zhovonsocial/1200/630">
+    
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Prata&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Kanit', sans-serif;
+            background-color: #f3f3f3;
+            color: #121212;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Prata', serif;
+        }
+        .font-kanit {
+            font-family: 'Kanit', sans-serif;
+        }
+        .font-prata {
+            font-family: 'Prata', serif;
+        }
+        .animate-marquee {
+            animation: marquee 30s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-100%); }
+        }
+        .btn-circle {
+            transition: all 0.4s ease-in-out;
+        }
+        .btn-circle:hover {
+            background-color: #F08F42;
+            color: #121212;
+            border-color: #F08F42;
+        }
+        .axtra-service__item .thumb {
+            transform: scale(0);
+            transition: transform 0.5s ease;
+        }
+        .axtra-service__item:hover .thumb {
+            transform: scale(1);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0"
+  }
+}
+</script>
+</head>
+<body class="hide-scrollbar">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

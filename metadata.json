@@ -1,0 +1,8 @@
+{
+  "name": "Zhovon Digital Agency",
+  "description": "A sleek, animated, and modern single-page website for a digital marketing agency called Zhovon, showcasing their services, portfolio, and expertise with dynamic effects and AI-powered features.",
+  "requestFramePermissions": [],
+  "dependencies": {
+    "@google/genai": "latest"
+  }
+}
